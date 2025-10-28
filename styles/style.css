@@ -2,6 +2,7 @@
   --primary-color: #1E2022;
   --secondary-color: #52616B;
   --font-color: #F0F5F9;
+  --secondary-font-color: #3b3b3b;
   --extra-color: #C9D6DF;
   --main-font: "Roboto", Arial, Helvetica, sans-serif;
   --Welcome-section-font: "IBM Plex Mono", "Roboto", Arial, Helvetica, sans-serif;
@@ -10,10 +11,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: var(--main-font);
 }
 
 .header {
-  background-color: red;
+  background-color: var(--secondary-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -31,10 +33,16 @@ html, body {
 }
 
 .nav-link {
+  color: var(--font-color);
   font-size: 18px;
-  background-color: blue;
   padding: 16px 20px;
   margin: 0 6px 0 0;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--secondary-font-color);
+    background-color: var(--extra-color);
+  }
 }
 
 
