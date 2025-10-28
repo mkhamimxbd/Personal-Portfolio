@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #1E2022;
+  --secondary-color: #52616B;
+  --font-color: #F0F5F9;
+  --extra-color: #C9D6DF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
