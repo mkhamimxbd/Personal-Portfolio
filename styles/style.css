@@ -4,7 +4,7 @@
   --font-color: #F0F5F9;
   --extra-color: #C9D6DF;
   --main-font: "Roboto", Arial, Helvetica, sans-serif;
-  --Welcome-section-font: "IBM Plex Mono";
+  --Welcome-section-font: "IBM Plex Mono", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 html, body {
