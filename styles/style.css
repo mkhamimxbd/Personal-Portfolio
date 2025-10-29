@@ -14,6 +14,10 @@ html, body {
   font-family: var(--main-font);
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .header {
   background-color: var(--secondary-color);
   position: fixed;
@@ -25,6 +29,7 @@ html, body {
   align-items: center;
   padding: 0 30px 0 0;
   height: 60px;
+  z-index: 1000;
 }
 
 .nav-links {
@@ -122,14 +127,14 @@ html, body {
 }
 
 .projects-section {
-  background-color: var(--secondary-font-color);
+  background-color: var(--extra-color);
 }
 
 .projects-section-title {
   margin: 0;
   padding: 30px 0;
   text-align: center;
-  color: var(--font-color);
+  color: var(--secondary-font-color);
   font-size: 40px;
 }
 
@@ -148,9 +153,16 @@ html, body {
 }
 
 .project {
-  background-color: purple;
+  background-color: var(--secondary-color);
   width: fit-content;
   text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px var(--secondary-color);
+  }
 }
 
 .project-thumbnail {
@@ -158,20 +170,45 @@ html, body {
   height: 370px;
   object-fit: cover;
   margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.left-shown-thumbnail {
+  object-position: left;
+}
+
+.right-shown-thumbnail {
+  object-position: right;
 }
 
 .project-title {
   text-align: center;
   margin: 12px 0;
-  color: red;
+  color: var(--font-color);
   font-size: 16px;
 }
 
 .show-all-link {
   font-size: 14px;
-  background-color: red;
-  color: green;
+  background-color: var(--font-color);
+  color: var(--secondary-font-color);
+  font-weight: 500;
   text-decoration: none;
-  margin: 56px 0 0 0;
-  padding: 10px 20px;
+  margin: 56px 0;
+  display: flex;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
+
+.show-all-link p {
+  padding: 0 0 0 10px;
+}
+
+.show-all-link img {
+  margin: 0;
+  width: 30px;
 }
