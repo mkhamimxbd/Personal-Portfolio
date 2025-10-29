@@ -36,7 +36,7 @@ html, body {
 
 .nav-list {
   font-size: 18px;
-  padding: 16px 0px;
+  padding: 19px 0px;
   margin: 0 6px 0 0;
   
   &:hover {
@@ -51,6 +51,7 @@ html, body {
   text-decoration: none;
   font-size: 18px;
   padding: 19px 20px;
+  transition: all 0.06s ease;
 
   &:hover {
     background-color: var(--extra-color);
