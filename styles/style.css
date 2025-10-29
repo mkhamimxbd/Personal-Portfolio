@@ -56,6 +56,11 @@ html, body {
     background-color: var(--extra-color);
     color: var(--secondary-font-color);
   }
+
+  &:active {
+    background-color: var(--secondary-font-color);
+    color: var(--extra-color);
+  }
 }
 
 .main {
