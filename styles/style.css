@@ -112,15 +112,15 @@ html, body {
 
   &:hover {
     cursor: pointer;
-    background-color: var(--secondary-font-color);
-    color: var(--extra-color);
-    box-shadow: 0 0 6px var(--extra-color);
-  }
-
-  &:active {
     background-color: var(--font-color);
     color: var(--secondary-color);
     box-shadow: 0 0 10px var(--font-color);
+  }
+
+  &:active {
+    background-color: var(--secondary-font-color);
+    color: var(--extra-color);
+    box-shadow: 0 0 15px var(--extra-color);
   }
 }
 
