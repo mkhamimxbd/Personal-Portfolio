@@ -61,6 +61,7 @@ html, body {
 
 .main {
   margin: 60px 0 0 0;
+  height: 300vh;
 }
 
 .welcome-section {
@@ -71,6 +72,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   padding: 0 12%;
+  border-bottom: 8px solid var(--secondary-color);
 }
 
 .welcome-txt {
@@ -81,7 +83,6 @@ html, body {
 }
 
 .sub-welcome-txt {
-  all: unset;
   color: #cacaca;
   font-size: 20px;
   font-style: italic;
@@ -120,3 +121,57 @@ html, body {
   }
 }
 
+.projects-section {
+  background-color: var(--secondary-font-color);
+}
+
+.projects-section-title {
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  color: var(--font-color);
+  font-size: 40px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.project {
+  background-color: purple;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.project-thumbnail {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.project-title {
+  text-align: center;
+  margin: 12px 0;
+  color: red;
+  font-size: 16px;
+}
+
+.show-all-link {
+  font-size: 14px;
+  background-color: red;
+  color: green;
+  text-decoration: none;
+  margin: 56px 0 0 0;
+  padding: 10px 20px;
+}
