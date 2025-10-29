@@ -108,6 +108,7 @@ html, body {
   border-radius: 4px;
   text-decoration: none;
   font-family: var(--Welcome-section-font);
+  box-shadow: 0 0 4px var(--extra-color);
   transition: all 0.15s ease;
 
   &:hover {
@@ -120,7 +121,7 @@ html, body {
   &:active {
     background-color: var(--secondary-font-color);
     color: var(--extra-color);
-    box-shadow: 0 0 15px var(--extra-color);
+    box-shadow: 0 0 8px var(--extra-color);
   }
 }
 
