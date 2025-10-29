@@ -62,9 +62,13 @@ html, body {
   }
 }
 
+#about-caller {
+  height: 60px;
+}
+
 .main {
-  margin: 60px 0 0 0;
-  height: 300vh;
+  /* margin: 60px 0 0 0; */
+  height: 500vh;
 }
 
 .welcome-section {
