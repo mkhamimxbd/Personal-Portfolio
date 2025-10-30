@@ -108,6 +108,16 @@ html, body {
   font-family: var(--Welcome-section-font);
   font-size: 60px;
   font-weight: 500;
+  width: fit-content;
+  border-right: 3px solid #00adb5; 
+  animation: blink 0.7s step-end infinite;
+
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .sub-welcome-txt {
