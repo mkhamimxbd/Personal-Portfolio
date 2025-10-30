@@ -109,7 +109,8 @@ html, body {
   font-size: 60px;
   font-weight: 500;
   width: fit-content;
-  border-right: 3px solid #00adb5; 
+  min-height: 2.5ch;
+  border-right: 3px solid var(--extra-color); 
   animation: blink 0.7s step-end infinite;
 
 }
@@ -327,6 +328,10 @@ html, body {
     margin: 10px 0 0 0;
   }
 
+  .welcome-section {
+    align-items: center;
+  }
+
   .welcome-txt,
   .sub-welcome-txt {
     text-align: center;
@@ -353,5 +358,23 @@ html, body {
   .project-thumbnail {
     width: 300px;
     height: 300px;
+  }
+
+  .welcome-txt {
+    font-size: 32px;
+  }
+
+  .sub-welcome-txt {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .welcome-txt {
+    font-size: 26px;
+  }
+
+  .sub-welcome-txt {
+    font-size: 18px;
   }
 }
