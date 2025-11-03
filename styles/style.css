@@ -382,3 +382,49 @@ html, body {
     font-size: 18px;
   }
 }
+
+@media (max-width: 1300px) {
+  .responsive-web-design-certificate {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .responsive-web-design-certificate {
+    width: 400px;
+  }
+}
+
+@media (max-width: 960px) {
+  .welcome-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .responsive-web-design-certificate {
+    width: 350px;
+    margin: 30px 0 0 0;
+  }
+
+  .welcome-section-left-side {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome-section-links {
+    margin: 10px 0 0 0;
+  }
+
+  .welcome-txt {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 376px) {
+  .welcome-txt {
+    font-size: 28px;
+  }
+}
