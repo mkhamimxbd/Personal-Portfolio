@@ -2,18 +2,18 @@
   --main-font: "Roboto", Arial, Helvetica, sans-serif;
   --Welcome-section-font: "IBM Plex Mono", "Roboto", Arial, Helvetica, sans-serif;
   /* darkish and whitish theme */
-  --primary-color: #1E2022;
+  /* --primary-color: #1E2022;
   --secondary-color: #52616B;
   --font-color: #F0F5F9;
   --secondary-font-color: #3b3b3b;
-  --extra-color: #C9D6DF;
+  --extra-color: #C9D6DF; */
 
   /* darkish whitish and bluish theme */
-  /* --primary-color: #222831;
+  --primary-color: #222831;
   --secondary-color: #393E46;
   --font-color: #EEEEEE;
   --secondary-font-color: #3b3b3b;
-  --extra-color: #00ADB5; */
+  --extra-color: #00ADB5;
 
   /* brownish theme */
   /* --primary-color: #AD8B73;
